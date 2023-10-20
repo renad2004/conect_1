@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Responsive Registration Form</title>
+    <style>
+h1{
+    text-align: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(img1.jpg);
+    background-size: cover;
+background-size: 80;}
+    .container{
+    width: 138%;
+    max-width: 650px;
+    background: rgba(0, 0, 0, .6);
+    padding: 25px;
+    margin: 13px 65px;
+    border-radius: 46px;
+    box-shadow: inset -2px 2px 2px white;
+     
+}
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="color: antiquewhite; text-decoration: underline;" class="form-title">CONTACTO</h1>
+    <div class="user-input-box">
+    <form>
+        <label style="color: aliceblue;" for="name">Name:</label><br>
+        <input type="name"required placeholder="name" id="email" name="name"><br>
+        <label style="color: aliceblue; for="email">Email:</label><br>
+        <input type="email" required placeholder="email" id="email" name="email"><br>
+        <label style="color: aliceblue; for="name">phone:</label><br>
+        <input type="number" required placeholder="phone" id="phone" name="phone"><br>
+        <label style="color: aliceblue; for="password">password:</label><br>
+        <input type="password" id="password" required placeholder="password" name="password"></div>
+            <br>
+            <div class="form-submit-btn">
+            <input type="submit" value="submit">
+          </div>
+        </form>
